@@ -1,0 +1,12 @@
+{
+  "name": "Let’s Get It Cleaned",
+  "short_name": "LGIC",
+  "description": "Friendly, insured house cleaning — recurring cleans, deep cleans, move-outs and Airbnb turnovers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFBF8",
+  "theme_color": "#F0349A",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

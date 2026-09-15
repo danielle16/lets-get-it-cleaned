@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 120" width="460" height="120" role="img" aria-label="Let’s Get It Cleaned">
+  <g transform="translate(8,12)">
+    <circle cx="48" cy="48" r="46" fill="#E8449B"/>
+    <circle cx="48" cy="48" r="46" fill="none" stroke="#241021" stroke-width="2.6"/>
+    <circle cx="48" cy="48" r="39" fill="none" stroke="#FFF7FB" stroke-width="1.6" stroke-opacity=".85"/>
+    <path d="M48 20c2.6 10.4 5.8 15.6 13.4 18.2C69 40.8 74 43.6 76 48c-10.4 2.6-15.6 5.8-18.2 13.4C55.2 69 52.4 74 48 76c-2.6-10.4-5.8-15.6-13.4-18.2C27 55.2 22 52.4 20 48c10.4-2.6 15.6-5.8 18.2-13.4C40.8 27 43.6 22 48 20Z" fill="#FFF7FB" stroke="#241021" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M69 26v9M64.5 30.5h9" stroke="#FFF7FB" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <g font-family="Fraunces,Georgia,serif">
+    <text x="122" y="58" font-size="35" font-weight="600" fill="#241021">Let’s Get It <tspan fill="#C42877">Cleaned</tspan></text>
+  </g>
+  <text x="124" y="84" font-family="Inter,'Helvetica Neue',sans-serif" font-size="13" font-weight="600" fill="#7A5870" letter-spacing="4.4">HOME CLEANING SERVICE</text>
+</svg>

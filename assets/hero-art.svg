@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 540" width="420" height="540" role="img"
+     aria-label="Illustration of cleaning supplies: a spray bottle, a bucket with a scrub brush, folded towels and a small plant">
+  <defs>
+    <linearGradient id="arch" x1="60" y1="20" x2="360" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBE6EF"/><stop offset="1" stop-color="#F6D2E4"/>
+    </linearGradient>
+    <clipPath id="archClip"><path d="M30 200a180 180 0 0 1 360 0v300H30Z"/></clipPath>
+  </defs>
+  <style>
+    .ink{fill:none;stroke:#241021;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.4}
+    .ink3{fill:none;stroke:#241021;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.2}
+    .pink{fill:#E8449B}.pink-l{fill:#F79BCB}.cream{fill:#FFF7FB}.mint{fill:#CFEDE4}
+  </style>
+
+  <path d="M30 200a180 180 0 0 1 360 0v300H30Z" fill="url(#arch)"/>
+  <g clip-path="url(#archClip)">
+    <circle cx="104" cy="150" r="58" fill="#fff" opacity=".35"/>
+    <circle cx="330" cy="330" r="78" fill="#fff" opacity=".25"/>
+  </g>
+  <path d="M30 200a180 180 0 0 1 360 0v300" class="ink" stroke-opacity=".45"/>
+
+  <!-- shelf / ground line -->
+  <path d="M46 452h328" class="ink3"/>
+
+  <!-- ===== spray bottle ===== -->
+  <g>
+    <path d="M96 236h30v26H96z" class="cream"/>
+    <path d="M96 236h30v26H96z" class="ink"/>
+    <path d="M96 244H66c-4 0-6 3-5 7l5 14c1 4 5 6 9 4l21-9Z" class="pink-l"/>
+    <path d="M96 244H66c-4 0-6 3-5 7l5 14c1 4 5 6 9 4l21-9Z" class="ink"/>
+    <path d="M84 264c5 6 9 13 9 20" class="ink"/>
+    <path d="M57 247h-9v10h9" class="pink"/>
+    <path d="M57 247h-9v10h9" class="ink"/>
+    <path d="M90 262h44c14 0 24 11 24 25v141c0 13-10 24-24 24H90c-14 0-24-11-24-24V287c0-14 10-25 24-25Z" class="pink"/>
+    <path d="M90 262h44c14 0 24 11 24 25v141c0 13-10 24-24 24H90c-14 0-24-11-24-24V287c0-14 10-25 24-25Z" class="ink"/>
+    <path d="M78 306h58v54H78z" class="cream"/>
+    <path d="M78 306h58v54H78z" class="ink"/>
+    <path d="M90 322h34M90 336h24" class="ink" stroke-opacity=".5"/>
+    <path d="M66 396h92" class="ink" stroke-opacity=".35"/>
+  </g>
+
+  <!-- ===== bucket + brush ===== -->
+  <g>
+    <!-- brush (drawn first so the bucket hides the bristles) -->
+    <g transform="rotate(16 268 300)">
+      <path d="M256 236h26c5 0 8 4 8 8v66h-42v-66c0-4 3-8 8-8Z" class="cream"/>
+      <path d="M256 236h26c5 0 8 4 8 8v66h-42v-66c0-4 3-8 8-8Z" class="ink"/>
+      <path d="M262 246h14" class="ink" stroke-opacity=".45"/>
+      <path d="M248 310h42v16h-42z" class="pink"/>
+      <path d="M248 310h42v16h-42z" class="ink"/>
+      <path d="M254 326v14M263 326v16M272 326v16M281 326v14" class="ink3" stroke-opacity=".55"/>
+    </g>
+    <path d="M214 346h96l-12 92c-1 9-9 14-18 14h-36c-9 0-17-5-18-14Z" class="pink-l"/>
+    <path d="M214 346h96l-12 92c-1 9-9 14-18 14h-36c-9 0-17-5-18-14Z" class="ink"/>
+    <path d="M232 384h60l-4 28h-52Z" fill="#fff" opacity=".4"/>
+    <path d="M208 326h108c4 0 7 3 7 7v6c0 4-3 7-7 7H208c-4 0-7-3-7-7v-6c0-4 3-7 7-7Z" class="cream"/>
+    <path d="M208 326h108c4 0 7 3 7 7v6c0 4-3 7-7 7H208c-4 0-7-3-7-7v-6c0-4 3-7 7-7Z" class="ink"/>
+  </g>
+
+  <!-- ===== folded towels ===== -->
+  <g>
+    <path d="M296 414h74c5 0 9 4 9 9v9c0 5-4 9-9 9h-74c-5 0-9-4-9-9v-9c0-5 4-9 9-9Z" class="mint"/>
+    <path d="M296 414h74c5 0 9 4 9 9v9c0 5-4 9-9 9h-74c-5 0-9-4-9-9v-9c0-5 4-9 9-9Z" class="ink"/>
+    <path d="M304 390h60c5 0 9 4 9 9v8c0 5-4 9-9 9h-60c-5 0-9-4-9-9v-8c0-5 4-9 9-9Z" class="cream"/>
+    <path d="M304 390h60c5 0 9 4 9 9v8c0 5-4 9-9 9h-60c-5 0-9-4-9-9v-8c0-5 4-9 9-9Z" class="ink"/>
+    <path d="M312 424c4-4 4-8 0-12M320 400c4-4 4-7 0-11" class="ink" stroke-opacity=".55"/>
+  </g>
+
+  <!-- bubbles + line sparkles -->
+  <circle cx="176" cy="196" r="15" class="cream"/>
+  <circle cx="176" cy="196" r="15" class="ink"/>
+  <circle cx="171" cy="191" r="3.6" fill="#F79BCB"/>
+  <circle cx="212" cy="160" r="9" class="cream"/>
+  <circle cx="212" cy="160" r="9" class="ink"/>
+  <circle cx="132" cy="150" r="6" class="cream"/>
+  <circle cx="132" cy="150" r="6" class="ink"/>
+  <path d="M300 128v22M289 139h22" class="ink3" stroke-opacity=".65"/>
+  <path d="M258 214v14M251 221h14" class="ink3" stroke-opacity=".45"/>
+  <path d="M74 190v12M68 196h12" class="ink3" stroke-opacity=".4"/>
+  <circle cx="344" cy="242" r="11" class="cream"/>
+  <circle cx="344" cy="242" r="11" class="ink"/>
+  <circle cx="340" cy="238" r="2.8" fill="#F79BCB"/>
+  <circle cx="360" cy="286" r="6" class="cream"/>
+  <circle cx="360" cy="286" r="6" class="ink"/>
+</svg>
